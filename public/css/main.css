@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* white background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f8ff; /* light blue background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* blue button color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* darker blue on hover */
+}
+
+.submitted-values {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e0f3ff; /* light blue background for submitted values */
+    border-radius: 8px;
+}
+.submitted-values ul {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 5px;
+    background-color: #fff; /* White background */
+    color: #007bff; /* Blue text color */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.submitted-values ul li {
+    margin: 0 10px;
+}
+
+.submitted-values ul a {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff; /* White text color */
+    background-color: #007bff; /* Blue background */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.submitted-values ul a:hover {
+    background-color: #fff; /* White background on hover */
+    color: #007bff; /* Blue text color on hover */
+}
+/* Reset default styles for ul and li */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the links in the navigation bar */
+ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Provide space between list items */
+}
+
+ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #f2f2f2; /* Blue color for the links */
+    font-weight: bold; /* Bold text */
+    transition: all 0.3s; /* Add a transition effect */
+    color: rgb(255, 255, 255)fff;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+ul li a:hover {
+    color: #0056b3; /* Darker blue color on hover */
+}
